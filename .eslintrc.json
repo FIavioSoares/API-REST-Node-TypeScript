@@ -11,18 +11,17 @@
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
-    "indent": ["error", 2],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
     "linebreak-style": 0,
     "quotes": ["error", "double"],
-    "semi": ["error", "always"],
-    "@typescript-eslint/ban-types": "off",
-    "@typescript-eslint/no-unsafe-assignment": [
-      "error",
-      {
-        "types": {
-          "TAllSchemas": false
-        }
-      }
-    ]
-  }
+    "semi": ["error", "always"]
+  },
+  "@typescript-eslint/ban-types": "off",
+  "@typescript-eslint/no-empty-interface": "off"
 }
