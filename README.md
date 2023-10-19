@@ -17,7 +17,7 @@ Tem conceitos como:
 
 
 
-Está é uma API Rest, então não tem interface nesse repositório. Porém, é possível conectar um interface a ele. A interface está em outro repositório.
+Está é uma API Rest, então não tem interface nesse repositório. Porém, é possível conectar um interface a ele.
 
 
 # Como rodar 
