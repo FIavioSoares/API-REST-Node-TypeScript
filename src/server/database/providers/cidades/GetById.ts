@@ -1,6 +1,6 @@
 import { TableNames } from "../../TableNames";
+import { Knex } from "../../knex";
 import { ICidade } from "../../models";
-import { Knex } from "../../Knex";
 
 export const getById = async (id: number): Promise<ICidade | Error> => {
   try {

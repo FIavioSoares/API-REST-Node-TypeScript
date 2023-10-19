@@ -1,6 +1,6 @@
 import { TableNames } from "../../TableNames";
+import { Knex } from "../../knex";
 import { ICidade } from "../../models";
-import { Knex } from "../../Knex";
 
 export const updateById = async (
   id: number,

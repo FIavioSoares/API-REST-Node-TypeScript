@@ -1,6 +1,6 @@
 import { TableNames } from "../../TableNames";
 import { ICidade } from "../../models";
-import { Knex } from "../../Knex";
+import { Knex } from "../../knex";
 
 export const getAll = async (
   page: number,

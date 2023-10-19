@@ -1,5 +1,5 @@
 import { TableNames } from "../../TableNames";
-import { Knex } from "../../Knex";
+import { Knex } from "../../knex";
 
 export const count = async (filter = ""): Promise<number | Error> => {
   try {

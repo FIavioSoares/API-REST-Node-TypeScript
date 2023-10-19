@@ -1,5 +1,5 @@
 import { TableNames } from "../../TableNames";
-import { Knex } from "../../Knex";
+import { Knex } from "../../knex";
 
 export const deleteById = async (id: number): Promise<void | Error> => {
   try {
