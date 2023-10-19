@@ -17,9 +17,6 @@ Tem conceitos como:
 
 
 
-Está é uma API Rest, então não tem interface nesse repositório. Porém, é possível conectar um interface a ele.
-
-
 # Como rodar 
 
 Você vai precisar do nodens instalado no seu computador para rodar o projeto.
