@@ -19,7 +19,7 @@ Tem conceitos como:
 
 # Como rodar 
 
-Você vai precisar do nodens instalado no seu computador para rodar o projeto.
+Você vai precisar do node instalado no seu computador para rodar o projeto.
 
 Instale as dependências
 ```
